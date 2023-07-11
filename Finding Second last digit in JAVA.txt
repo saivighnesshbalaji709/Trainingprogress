@@ -1,0 +1,21 @@
+import java.io.*;
+import  java.util.*;
+import java.lang.Math;
+class UserMainCode {   
+      public int secondLastDigitof(int input1){
+      int last=0;
+      if (input1>9){
+          last=(input1%100)/10;
+          System.out.println(last);
+}
+      else if ((input1<=9)&&(input1>=-9))   
+                 last=-1;
+ 
+      else
+          last=((input1/10)%10)*(-1);
+          System.out.println(last);
+      return (last);
+
+}
+
+}
